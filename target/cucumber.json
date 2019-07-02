@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1166500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "application displays welcome message",
+            "match": {
+              "location": "login3.application_displays_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "signin",
+        "description": "",
+        "id": "test-background-keyword;signin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users un and pwd",
+            "match": {
+              "location": "login3.users_un_and_pwd()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click signin",
+            "match": {
+              "location": "login3.click_signin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 466900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "application displays welcome message",
+            "match": {
+              "location": "login3.application_displays_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "serach for the product",
+        "description": "",
+        "id": "test-background-keyword;serach-for-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user seraches for speaker",
+            "match": {
+              "location": "login3.user_seraches_for_speaker()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 232300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "application displays welcome message",
+            "match": {
+              "location": "login3.application_displays_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "add to cart",
+        "description": "",
+        "id": "test-background-keyword;add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 140100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user adds the product to the cart",
+            "match": {
+              "location": "login3.user_adds_the_product_to_the_cart()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 253500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "application displays welcome message",
+            "match": {
+              "location": "login3.application_displays_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "payment process",
+        "description": "",
+        "id": "test-background-keyword;payment-process",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user does the payment",
+            "match": {
+              "location": "login3.user_does_the_payment()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 238300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "application displays welcome message",
+            "match": {
+              "location": "login3.application_displays_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "log out",
+        "description": "",
+        "id": "test-background-keyword;log-out",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user logs out",
+            "match": {
+              "location": "login3.user_logs_out()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Test background keyword",
+    "description": "",
+    "id": "test-background-keyword",
+    "keyword": "Feature",
+    "uri": "src/main/resources/eg4.feature",
+    "tags": []
+  }
+]
